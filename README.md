@@ -7,7 +7,7 @@ All you need to set is the target element, and options if you would like to chan
 
 ## Installation 
 
-Make sure Zepto is loaded before the carousel plugin.
+Make sure [Zepto](http://zeptojs.com/) is loaded before the carousel plugin.
 
 ``` html
 <script type="text/javascript" src="libs/zepto.min.js"></script>
