@@ -10,8 +10,8 @@ All you need to set is the target element, and options if you would like to chan
 Make sure [Zepto.js](http://zeptojs.com/) is loaded before the carousel plugin.
 
 ``` html
-<script type="text/javascript" src="libs/zepto.min.js"></script>
-<script type="text/javascript" src="libs/zepto-carousel.js"></script>
+<script type="text/javascript" src="lib/zepto.min.js"></script>
+<script type="text/javascript" src="lib/zepto-carousel.js"></script>
 ```
 
 
