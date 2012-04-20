@@ -1,13 +1,13 @@
 # Zepto-carousel.js 
 
-A Zepto Plugin to create an image carousel for your website. This carousel simply fades the first element in, remains for a few seconds, and fades out using css3 animation tranforms for opacity.
+A Zepto.js Plugin to create an image carousel for your website. This carousel simply fades the first element in, remains for a few seconds, and fades out using css3 animation tranforms for opacity.
 
 All you need to set is the target element, and options if you would like to change the speed.
 
 
 ## Installation 
 
-Make sure [Zepto](http://zeptojs.com/) is loaded before the carousel plugin.
+Make sure [Zepto.js](http://zeptojs.com/) is loaded before the carousel plugin.
 
 ``` html
 <script type="text/javascript" src="libs/zepto.min.js"></script>
