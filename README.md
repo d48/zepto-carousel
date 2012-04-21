@@ -65,5 +65,6 @@ CSS:
 
 ## Todo
 
+* Update plugin design pattern to better manage private variables and use of _this_
 * add error checking if element doesn't exist
 * error check if only have one slide to animate through
