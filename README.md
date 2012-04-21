@@ -14,6 +14,9 @@ Make sure [Zepto.js](http://zeptojs.com/) is loaded before the carousel plugin.
 <script type="text/javascript" src="lib/zepto-carousel.js"></script>
 ```
 
+## Demo
+
+View JSFiddle [here](http://jsfiddle.net/kXDKH/)
 
 ## Usage 
 
@@ -22,13 +25,11 @@ To use, simply target the element you want Zepto-carousel to be applied to.
 HTML:
 
 ``` html
-<div id="wrappper">
-     <ul id="my-carousel">
-          <li>content that will fade in and out</li>
-          <li>content that will fade in and out</li>
-          <li>content that will fade in and out</li>
-     </ul>
-</div>
+<ul id="my-carousel">
+	<li>content that will fade in and out</li>
+	<li>content that will fade in and out</li>
+	<li>content that will fade in and out</li>
+</ul>
 ```
 
 Javascript:
@@ -41,11 +42,11 @@ or with optional settings for speed:
 
 ``` javascript
 // in milliseconds
-// durationAnimation = how long fade effect animate for
-// durationBetweenSlides = how long slides should stay up before next fade animation
+// speed = how long fade effect animates for
+// duration = how long slides should stay up before next fade animation
 $('#my-carousel').carousel({
-     'durationAnimation': 5000,
-     'durationBetweenSlides': 6000
+     'speed': 5000,
+     'duration': 6000
 });
 ```
 
@@ -53,12 +54,21 @@ CSS:
 
 ``` css
 #my-carousel { 
-     height: 400px; width: 200px; overflow: hidden; 
+    height: 200px; 
+    width: 400px;
+    margin: 20px;
+    overflow: none;
+    position: relative;
 }
 
 #my-carousel li { 
-     /* uses Zepto's animate function with opacity, so set to 0 upon page load */
-     opacity: 0; 
+    display: inline;
+    float: left;
+    left:0;
+    /* uses Zepto's animate function with opacity, so set to 0 for initial page load */
+    opacity: 0; 
+    position: absolute;
+    top: 0;
 }
 ```
 
