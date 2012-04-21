@@ -16,7 +16,7 @@ Make sure [Zepto.js](http://zeptojs.com/) is loaded before the carousel plugin.
 
 ## Demo
 
-View JSFiddle [here](http://jsfiddle.net/kXDKH/)
+View JSFiddle [here](http://jsfiddle.net/design48/rzeVK/2/)
 
 ## Usage 
 
