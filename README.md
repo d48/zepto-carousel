@@ -1,3 +1,11 @@
+```
+ ______     ______     ______   ______   ______        ______     ______     ______     ______     __  __     ______     ______     __        
+/\___  \   /\  ___\   /\  == \ /\__  _\ /\  __ \      /\  ___\   /\  __ \   /\  == \   /\  __ \   /\ \/\ \   /\  ___\   /\  ___\   /\ \       
+\/_/  /__  \ \  __\   \ \  _-/ \/_/\ \/ \ \ \/\ \     \ \ \____  \ \  __ \  \ \  __<   \ \ \/\ \  \ \ \_\ \  \ \___  \  \ \  __\   \ \ \____  
+  /\_____\  \ \_____\  \ \_\      \ \_\  \ \_____\     \ \_____\  \ \_\ \_\  \ \_\ \_\  \ \_____\  \ \_____\  \/\_____\  \ \_____\  \ \_____\ 
+  \/_____/   \/_____/   \/_/       \/_/   \/_____/      \/_____/   \/_/\/_/   \/_/ /_/   \/_____/   \/_____/   \/_____/   \/_____/   \/_____/ 
+                                                                                                                                              
+```
 # Zepto-carousel.js 
 
 A Zepto.js Plugin to create an image carousel for your website. This carousel simply fades the first element in, remains for a few seconds, and fades out using css3 animation tranforms for opacity.
@@ -16,7 +24,7 @@ Make sure [Zepto.js](http://zeptojs.com/) is loaded before the carousel plugin.
 
 ## Demo
 
-View JSFiddle [here](http://jsfiddle.net/design48/rzeVK/2/)
+View JSFiddle [here](http://jsfiddle.net/design48/rzeVK/9/)
 
 ## Usage 
 
