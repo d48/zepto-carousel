@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Zepto Carousel</title>
+		<script type="text/javascript" charset="utf-8" src="./node_modules/zepto/zepto.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="./lib/zepto-carousel.js"></script>
+		<style>
+		#my-carousel { 
+			height: 200px; 
+			width: 400px;
+			margin: 20px;
+			overflow: none;
+			position: relative;
+		}
+
+		#my-carousel li { 
+			display: inline;
+			float: left;
+			left:0;
+			/* uses Zepto's animate function with opacity, so set to 0 for initial page load */
+			opacity: 0;  
+			position: absolute;
+			top: 0;
+		}
+		</style>
+    </head>
+    <body>
+        <h1>Test</h1>
+
+		<ul id="my-carousel">
+			<li><img src="http://lorempixel.com/400/200/technics/2" /></li>
+			<li><img src="http://lorempixel.com/400/200/technics/5" /></li>
+			<li><img src="http://lorempixel.com/400/200/technics/9" /></li>
+		</ul>
+
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function() {
+			   $('#my-carousel').carousel(); 
+			});
+        </script>
+    </body>
+</html>
